@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as bs
 
 
 def get_data():
+    print("here")
     days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
     session = SgRequests()
     start_url = "https://www.dreamdoors.co.uk/kitchen-showrooms"
