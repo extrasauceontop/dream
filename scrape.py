@@ -57,7 +57,9 @@ def get_data():
 
         address = address_parts[0]
         zipp = address_parts[-1]
-
+        print(location_name)
+        print(len(address_parts))
+        print("")
         if len(address_parts) == 3:
             city = address_parts[-2]
             state = "<MISSING>"
